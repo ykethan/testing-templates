@@ -9,7 +9,8 @@ body:
   - type: markdown
     attributes:
       value: |
-       **Important**: If you are experiencing the following issue
+        ⚠️ **Before you open this issue:**  
+        If you are experiencing [describe the specific issue], please refer to [this issue](https://github.com/OWNER/REPO/issues/ISSUE_NUMBER) for updates and solutions.
   - type: input
     id: os
     attributes:
