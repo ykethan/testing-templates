@@ -5,12 +5,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Tip:** Use the `Report a bug / Suggest an idea` button in Kiro to automatically include your system info and conversation ID, then click `Preview on GitHub` to submit.
+        ⚠️ **Before you open this issue:**  
+        If you are experiencing **An unexpected error occurred, please retry** error in Kiro, please refer to [#413](https://github.com/kirodotdev/Kiro/issues/413) for any new updates.
   - type: markdown
     attributes:
       value: |
-        ⚠️ **Before you open this issue:**  
-        If you are experiencing **An unexpected error occurred, please retry** error in Kiro, please refer to [#413](https://github.com/kirodotdev/Kiro/issues/413) for any new updates.
+        **Tip:** Use the `Report a bug / Suggest an idea` button in Kiro to automatically include your system info and conversation ID, then click `Preview on GitHub` to submit.
   - type: input
     id: os
     attributes:
