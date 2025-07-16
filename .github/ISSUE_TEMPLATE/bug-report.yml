@@ -7,7 +7,7 @@ body:
       label: |
         Before opening, please confirm:
       options:
-        - label:
+        label:
         ---
 
         If your issue is niot a duplicate of the following known issues. If so, **subscribe and comment to the following issues for updates** instead of opening a new one:
