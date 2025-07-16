@@ -25,7 +25,10 @@ body:
       label: |
         Before opening, please confirm:
       options:
-        - label: This is not a [duplicate issue](https://github.com/kirodotdev/Kiro/issues?q=is%3Aissue+).
+        - label: This is not a [duplicate issue](https://github.com/kirodotdev/Kiro/issues?q=is%3Aissue+)
+          required: true
+        - label: I have done my best to include a minimal, self-contained set of instructions for consistently reproducing the issue.
+          required: true
   - type: input
     id: os
     attributes:
