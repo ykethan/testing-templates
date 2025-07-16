@@ -1,38 +1,81 @@
 name: Bug Report
-description: Create a report to help us improve Amplify Gen 2
-labels: ["pending-maintainer-response"]
+description: File a bug report for Kiro
+labels: ["pending-triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: textarea
-    id: env
+        **Tip:** Use the `Report a bug / Suggest an idea` button in Kiro to automatically include your system info and conversation ID, then click `Preview on GitHub` to submit.
+  - type: markdown
     attributes:
-      label: Environment information
-      description: |
-        Please copy and paste output of the following command. This will be automatically formatted into code, so no need for backticks.
-        ```bash
-        npx ampx info
-        ```
-      render: plain text
+      value: |
+       **Important**: If you are experiencing the following issue
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: Your operating system and version
+      placeholder: "e.g., macOS 14.2, Windows 11, Ubuntu 22.04"
     validations:
       required: true
-  - type: textarea
-    id: description
+
+  - type: input
+    id: kiro-version
     attributes:
-      label: Describe the bug
-      description: |
-        A clear and concise description of the bug you are observing.
+      label: Kiro Version
+      description: The version of Kiro you're using
+      placeholder: "e.g., 1.2.3"
     validations:
       required: true
+
   - type: textarea
-    id: reproduction
+    id: bug-description
     attributes:
-      label: Reproduction steps
-      description: |
-        How can this bug be reproduced?
-        Please include any code snippets or screenshots that you think would be helpful!
-        For more complex issues provide a repository with the smallest sample that reproduces the issue.
+      label: Bug Description
+      description: Describe the issue you encountered
+      placeholder: "Describe the bug clearly and concisely. State which feature you used, your intended task, and how the bug affected your workflow."
     validations:
       required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide steps to reproduce the issue
+      placeholder: |
+        1. Open Kiro and create/open a project with [specific details]
+        2. Perform action [be specific about what you did]
+        3. Enter text/command [include exact text if relevant]
+        4. Observe [describe the error or unexpected behavior in detail]
+
+        Include any specific code, prompts, or files that are necessary to reproduce the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen
+      placeholder: "Explain what Kiro should have done when you performed the actions above. Describe the intended outcome or behavior."
+    validations:
+      required: true
+
+  - type: textarea
+    id: conversation-id
+    attributes:
+      label: Conversation ID
+      description: |
+        The conversation ID where the issue occurred (automatically populated when submitted from the IDE)
+      placeholder: "e.g., 1234-5678-9876"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Include supporting information that helps diagnose the issue
+      placeholder: "Add screenshots, error messages from logs, environment details (large codebase, custom configurations), or workarounds you attempted. This information helps diagnose and resolve the issue."
+    validations:
+      required: false
