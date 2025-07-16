@@ -2,13 +2,13 @@ name: Bug Report
 description: File a bug report for Kiro
 labels: ["pending-triage"]
 body:
-    - type: markdown
+  - type: markdown
     attributes:
       value: |
         ⚠️ **Before you open this issue:**  
         We are currently tracking the following behaviors: 
-        **unexpected error occurred, please retry** error in Kiro chat: [#413](https://github.com/kirodotdev/Kiro/issues/413)
-        **Remote SSH login**: [#87](https://github.com/kirodotdev/Kiro/issues/87)
+        - **unexpected error occurred, please retry** error in Kiro chat: [#413](https://github.com/kirodotdev/Kiro/issues/413)
+        - **Remote SSH login**: [#87](https://github.com/kirodotdev/Kiro/issues/87)
         Do subscribe to the issues for any new updates
   - type: markdown
     attributes:
