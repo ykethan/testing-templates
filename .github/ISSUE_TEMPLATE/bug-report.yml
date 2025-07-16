@@ -5,10 +5,16 @@ body:
   - type: markdown
     attributes:
       value: |
-        ⚠️ **Before you open this issue:**  
-        We are currently tracking the following behaviors: 
-        - **unexpected error occurred, please retry** error in Kiro chat: [#413](https://github.com/kirodotdev/Kiro/issues/413)
-        - **Remote SSH login**: [#87](https://github.com/kirodotdev/Kiro/issues/87)
+        ---
+        ## ⚠️ Before you open this issue
+
+        Please check if your problem matches any of the known issues below. If so, **subscribe to those issues for updates** instead of opening a new one:
+
+        - [#413: "unexpected error occurred, please retry" in Kiro chat](https://github.com/kirodotdev/Kiro/issues/413)
+        - [#87: Remote SSH login issues](https://github.com/kirodotdev/Kiro/issues/87)
+
+        _Thank you for helping us keep our issue tracker organized!_
+        ---
         Do subscribe to the issues for any new issues
   - type: markdown
     attributes:
