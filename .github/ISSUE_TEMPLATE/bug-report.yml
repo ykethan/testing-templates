@@ -10,7 +10,7 @@ body:
     attributes:
       value: |
         ⚠️ **Before you open this issue:**  
-        If you are experiencing `An unexpected error occurred, please retry` error in Kiro, please refer to [this issue](https://github.com/kirodotdev/Kiro/issues/413) for any new updates.
+        If you are experiencing **An unexpected error occurred, please retry** error in Kiro, please refer to [this issue](https://github.com/kirodotdev/Kiro/issues/413) for any new updates.
   - type: input
     id: os
     attributes:
