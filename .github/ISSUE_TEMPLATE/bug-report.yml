@@ -2,23 +2,30 @@ name: Bug Report
 description: File a bug report for Kiro
 labels: ["pending-triage"]
 body:
-  - type: checkboxes
+  - type: markdown
     attributes:
-      label: Before opening, please confirm
-      options:
-        - label: >-
-            If your issue is not a duplicate of the following known issues. If so, **subscribe and comment to the following issues for updates** instead of opening a new one:
-            
-            [#413: "unexpected error occurred, please retry" in Kiro chat](https://github.com/kirodotdev/Kiro/issues/413)
-            
-            [#87: Remote SSH login issues](https://github.com/kirodotdev/Kiro/issues/87)
-            
-            Thank you for helping us keep our issue tracker organized.
-          required: true
+      value: |
+        ---
+        ## ⚠️ Before you open this issue
+
+        ### Please check if the following issues may be a know issue. If so, **subscribe and comment to the following issues for updates** instead of opening a new one:
+
+        [#413: "unexpected error occurred, please retry" in Kiro chat](https://github.com/kirodotdev/Kiro/issues/413)
+        [#87: Remote SSH login issues](https://github.com/kirodotdev/Kiro/issues/87)
+        
+        Thank you for helping us keep our issue tracker organized.
+        
+        ---
   - type: markdown
     attributes:
       value: |
         **Tip:** Use the `Report a bug / Suggest an idea` button in Kiro to automatically include your system info and conversation ID, then click `Preview on GitHub` to submit.
+  - type: checkboxes
+    attributes:
+      label: |
+        Before opening, please confirm:
+      options:
+        - label: This is not a [duplicate issue](https://github.com/kirodotdev/Kiro/issues?q=is%3Aissue+).
   - type: input
     id: os
     attributes:
