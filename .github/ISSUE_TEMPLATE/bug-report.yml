@@ -4,16 +4,16 @@ labels: ["pending-triage"]
 body:
    - type: markdown
     attributes:
-    value: |
-      ---
-      ⚠️ **Before you open this issue:**
-      - Please review the following known issues before filing a new report:
-        - **"unexpected error occurred, please retry"** error in Kiro chat: [#413](https://github.com/kirodotdev/Kiro/issues/413)
-        - **Remote SSH login**: [#87](https://github.com/kirodotdev/Kiro/issues/87)
+       value: |
+         ---
+         ⚠️ **Before you open this issue:**
+         - Please review the following known issues before filing a new report:
+           - **"unexpected error occurred, please retry"** error in Kiro chat: [#413](https://github.com/kirodotdev/Kiro/issues/413)
+           - **Remote SSH login**: [#87](https://github.com/kirodotdev/Kiro/issues/87)
 
-      👉 _Subscribe to those issues for updates if your problem matches._
+         👉 _Subscribe to those issues for updates if your problem matches._
 
-      ---
+         ---
   - type: markdown
     attributes:
       value: |
