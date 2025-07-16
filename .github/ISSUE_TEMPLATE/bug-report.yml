@@ -4,20 +4,17 @@ labels: ["pending-triage"]
 body:
   - type: checkboxes
     attributes:
-      label: |
-        Before opening, please confirm:
+      label: Before opening, please confirm
       options:
-          - label: |
-          ---
-
-          If your issue is not a duplicate of the following known issues. If so, **subscribe and comment to the following issues for updates** instead of opening a new one:
-
-          [#413: "unexpected error occurred, please retry" in Kiro chat](https://github.com/kirodotdev/Kiro/issues/413)
-          [#87: Remote SSH login issues](https://github.com/kirodotdev/Kiro/issues/87)
-        
-          Thank you for helping us keep our issue tracker organized.
-        
-          ---
+        - label: >-
+            If your issue is not a duplicate of the following known issues. If so, **subscribe and comment to the following issues for updates** instead of opening a new one:
+            
+            [#413: "unexpected error occurred, please retry" in Kiro chat](https://github.com/kirodotdev/Kiro/issues/413)
+            
+            [#87: Remote SSH login issues](https://github.com/kirodotdev/Kiro/issues/87)
+            
+            Thank you for helping us keep our issue tracker organized.
+          required: true
   - type: markdown
     attributes:
       value: |
