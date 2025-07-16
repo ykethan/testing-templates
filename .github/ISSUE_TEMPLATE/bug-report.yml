@@ -2,8 +2,8 @@ name: Bug Report
 description: File a bug report for Kiro
 labels: ["pending-triage"]
 body:
-  - type: markdown
-  attributes:
+   - type: markdown
+    attributes:
     value: |
       ---
       ⚠️ **Before you open this issue:**
