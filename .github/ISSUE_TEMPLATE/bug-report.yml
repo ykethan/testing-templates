@@ -2,13 +2,15 @@ name: Bug Report
 description: File a bug report for Kiro
 labels: ["pending-triage"]
 body:
-  - type: checkbox
+  - type: checkboxes
     attributes:
-      value: |
+      label: |
+        Before opening, please confirm:
+      options:
+        - label:
         ---
-        ## ⚠️ Before you open this issue
 
-        ### Please check if your issue is a duplicate of the following known issues. If so, **subscribe and comment to the following issues for updates** instead of opening a new one:
+        If your issue is niot a duplicate of the following known issues. If so, **subscribe and comment to the following issues for updates** instead of opening a new one:
 
         [#413: "unexpected error occurred, please retry" in Kiro chat](https://github.com/kirodotdev/Kiro/issues/413)
         [#87: Remote SSH login issues](https://github.com/kirodotdev/Kiro/issues/87)
