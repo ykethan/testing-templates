@@ -12,7 +12,6 @@ body:
         ⚠️ **Before you open this issue:**  
         If you are experiencing **An unexpected error occurred, please retry** error in Kiro, please refer to [#413](https://github.com/kirodotdev/Kiro/issues/413) for any new updates.
   - type: input
-  - type: input
     id: os
     attributes:
       label: Operating System
