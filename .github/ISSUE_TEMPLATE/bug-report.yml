@@ -92,7 +92,7 @@ body:
     validations:
       required: false
   
-  - type: textarea
+  - type: input
     id: machine-id
     attributes:
       label: Machine ID
